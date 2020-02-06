@@ -1,0 +1,22 @@
+[
+	{
+		"name": "spring",
+		"startMonth": "April",
+		"endMonth": "June" 
+	},
+	{
+		"name": "summer",
+		"startMonth": "July",
+		"endMonth": "September" 
+	},
+	{
+		"name": "autumn",
+		"startMonth": "October",
+		"endMonth": "December" 
+	},
+	{
+		"name": "winter",
+		"startMonth": "January",
+		"endMonth": "March" 
+	}
+]

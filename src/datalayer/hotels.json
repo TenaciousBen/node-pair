@@ -1,0 +1,186 @@
+[
+	{
+		"name": "OK place",
+		"starRating": 3,
+		"peakSeason": "summer",
+		"lowSeason": "winter",
+		"rooms": [
+			{
+				"name": "single",
+				"rates": [
+					{
+						"name": "single",
+						"pax": 1,
+						"base": 1,
+						"price": 100
+					}
+				]
+			},
+			{
+				"name": "double",
+				"rates": [
+					{
+						"name": "single",
+						"pax": 1,
+						"base": 1,
+						"price": 200
+					},
+					{
+						"name": "double",
+						"pax": 2,
+						"base": 2,
+						"price": 200
+					},
+					{
+						"name": "double with roll-away bed",
+						"pax": 3,
+						"base": 2,
+						"price": 300
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Nice place",
+		"starRating": 4,
+		"peakSeason": "spring",
+		"lowSeason": "winter",
+		"rooms": [
+			{
+				"name": "single",
+				"rates": [
+					{
+						"name": "single",
+						"pax": 1,
+						"base": 1,
+						"price": 150
+					}
+				]
+			},
+			{
+				"name": "double",
+				"rates": [
+					{
+						"name": "single",
+						"pax": 1,
+						"base": 1,
+						"price": 250
+					},
+					{
+						"name": "double",
+						"pax": 2,
+						"base": 2,
+						"price": 250
+					},
+					{
+						"name": "double with roll-away bed",
+						"pax": 3,
+						"base": 2,
+						"price": 350
+					}
+				]
+			},
+			{
+				"name": "triple",
+				"rates": [
+					{
+						"name": "single",
+						"pax": 1,
+						"base": 1,
+						"price": 350
+					},
+					{
+						"name": "double",
+						"pax": 2,
+						"base": 2,
+						"price": 350
+					},
+					{
+						"name": "triple",
+						"pax": 3,
+						"base": 3,
+						"price": 350
+					},
+					{
+						"name": "triple with roll-away bed",
+						"pax": 4,
+						"base": 3,
+						"price": 450
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Great place",
+		"starRating": 5,
+		"peakSeason": "summer",
+		"lowSeason": "autumn",
+		"rooms": [
+			{
+				"name": "single",
+				"rates": [
+					{
+						"name": "single",
+						"pax": 1,
+						"base": 1,
+						"price": 200
+					}
+				]
+			},
+			{
+				"name": "double",
+				"rates": [
+					{
+						"name": "single",
+						"pax": 1,
+						"base": 1,
+						"price": 300
+					},
+					{
+						"name": "double",
+						"pax": 2,
+						"base": 2,
+						"price": 300
+					},
+					{
+						"name": "double with roll-away bed",
+						"pax": 3,
+						"base": 2,
+						"price": 400
+					}
+				]
+			},
+			{
+				"name": "triple",
+				"rates": [
+					{
+						"name": "single",
+						"pax": 1,
+						"base": 1,
+						"price": 400
+					},
+					{
+						"name": "double",
+						"pax": 2,
+						"base": 2,
+						"price": 400
+					},
+					{
+						"name": "triple",
+						"pax": 3,
+						"base": 3,
+						"price": 400
+					},
+					{
+						"name": "triple with roll-away bed",
+						"pax": 4,
+						"base": 3,
+						"price": 500
+					}
+				]
+			}
+		]
+	}
+]

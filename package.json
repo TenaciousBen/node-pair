@@ -16,13 +16,14 @@
   "dependencies": {
     "@types/cors": "^2.8.6",
     "@types/express": "^4.17.2",
-    "@types/jest": "^25.1.0",
+    "@types/jest": "^25.1.1",
     "@types/node": "^13.5.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "jest": "^25.1.0",
     "node": "^13.6.0",
     "nodemon": "^2.0.2",
+    "ts-jest": "^25.2.0",
     "ts-node": "^8.6.2",
     "typescript": "^3.7.5"
   }

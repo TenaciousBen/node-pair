@@ -1,7 +1,7 @@
 import express = require('express');
 import * as bodyParser from 'body-parser';
 import cors = require("cors");
-import { contractRouter } from './routers/contracts';
+import { router } from './routers/hotels';
 
 const loadExpress = ({ app }: { app: express.Application }) => {
   /**
@@ -28,7 +28,7 @@ const loadExpress = ({ app }: { app: express.Application }) => {
   app.use(bodyParser.json());
 
   // Microservice endpoints
-  app.use(`/api/`, contractRouter);
+  app.use(`/api/`, router);
 
   /// catch 404 and forward to error handler
   app.use((_req, _res, next) => {
