@@ -1,30 +1,24 @@
 {
-	"name": "customer-microservice",
+	"name": "node-pair",
 	"version": "1.0.0",
-	"description": "customer microservice for Suadela",
+	"description": "a node pairing test for typescipt developers",
 	"main": "src/app.ts",
 	"scripts": {
-		"build": "npx -p typescript tsc",
 		"start": "nodemon",
 		"inspect": "nodemon --inspect src/app.ts",
-		"test": "jest",
 		"lint": "eslint --ext .ts ./src",
 		"lint:fix": "eslint --ext .ts --fix ./src"
 	},
 	"repository": {
 		"type": "git",
-		"url": "luxtripper@vs-ssh.visualstudio.com:v3/luxtripper/Luxtripper/customer-microservice"
+		"url": "https://github.com/TenaciousBen/node-pair"
 	},
 	"keywords": [
-		"cron",
-		"jobs",
-		"js",
-		"javascript",
-		"typescript",
-		"node",
-		"express"
+		"express",
+		"pairing",
+		"test"
 	],
-	"author": "Mattheu McBarnett",
+	"author": "Luxtripper",
 	"dependencies": {
 		"date-fns": "^2.23.0",
 		"celebrate": "^9.1.0",
