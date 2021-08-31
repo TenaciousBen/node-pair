@@ -30,13 +30,6 @@ app.use((_req, _res, next) => {
 	err['status'] = 404;
 	next(err);
 });
-app.use((err, _req, res, next) => {
-	// Handle 401 thrown by express-jwt library
-	if (err.name === 'UnauthorizedError') {
-		return res.status(err.status).send({ message: err.message }).end();
-	}
-	return next(err);
-});
 app.use((err, _req, res, _next) => {
 	res.status(err.status || 500);
 	res.json({ errors: { message: err.message } });
