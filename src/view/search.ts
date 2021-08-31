@@ -26,3 +26,5 @@ export interface SearchResultHotel {
     offers: SearchResultOffer[],
     experiences: string[]
 }
+
+export type SearchResults = SearchResultHotel[];
