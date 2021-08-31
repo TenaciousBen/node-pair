@@ -9,5 +9,5 @@ export const searchRouter = () => {
 	});
 
 	return Router()
-		.get('', search)
+		.post('', search)
 };
