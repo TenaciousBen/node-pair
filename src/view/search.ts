@@ -9,7 +9,8 @@ export interface SearchRequest {
     from: string,
     to: string,
     travellers: number,
-    orderBy: SearchOrder
+    orderBy: SearchOrder,
+    experiences?: number[]
 }
 
 export interface SearchResultOffer {
