@@ -15,10 +15,14 @@ const data: Experience[] = [
     { id: 8, name: "Art", hotels: [1] }
 ];
 
+export interface ExperienceRepository {
+    get: () => Promise<Experience[]>;
+}
+
 const getExperiences = async (): Promise<Experience[]> => {
     return data.slice();
 };
 
-export const experienceRepository = () => ({
+export const experienceRepository = (): ExperienceRepository => ({
     get: getExperiences
 });

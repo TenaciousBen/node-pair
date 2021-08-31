@@ -11,6 +11,10 @@ export interface Hotel {
     availability: Availability[]
 }
 
+export interface HotelRepository {
+    get: () => Promise<Hotel[]>;
+}
+
 const data: Hotel[] = [
     {
         id: 1, name: "Cheapo Hotel", starRating: "3.5", pricePerNight: 50, availability: [
@@ -43,6 +47,6 @@ const getHotels = async (): Promise<Hotel[]> => {
     return data.slice();
 };
 
-export const hotelRepository = () => ({
+export const hotelRepository = (): HotelRepository => ({
     get: getHotels
 });

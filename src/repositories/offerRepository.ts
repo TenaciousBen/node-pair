@@ -9,6 +9,10 @@ export interface Offer {
     minTravellers: number;
 }
 
+export interface OfferRepository {
+    get: () => Promise<Offer[]>;
+}
+
 const data: Offer[] = [
     { id: 1, name: "January Sale", discountPercentage: 15, hotels: [1, 2, 3, 4], dates: { from: "2021-01-01 00:00", to: "2021-02-01 00:00" }, minTravellers: 1 },
     { id: 2, name: "Summer Sale", discountPercentage: 5, hotels: [1, 2], dates: { from: "2021-06-01 00:00", to: "2021-09-01 00:00" }, minTravellers: 1 },
@@ -20,6 +24,6 @@ const getOffers = async (): Promise<Offer[]> => {
     return data.slice();
 };
 
-export const offerRepository = () => ({
+export const offerRepository = (): OfferRepository => ({
     get: getOffers
 });
